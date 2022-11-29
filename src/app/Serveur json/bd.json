@@ -1,0 +1,178 @@
+{
+  "Femme": [
+    {
+      "id": 1,
+      "libelle": "Sweat oversize col rond",
+      "image": "../../assets/Sweat oversize col rond.jpg",
+      "prix": 12,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "male",
+      "taille": "s,m,l,xl",
+      "couleur": "noir,blanc,rose,gris"
+    },
+    {
+      "id": 2,
+      "libelle": "Pantalon jogger parachute loose fit",
+      "image": "../../assets/Pantalon jogger parachute loose fit.jpeg",
+      "prix": 25,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "famme",
+      "taille": "s,m,l,xl",
+      "couleur": "noir,blanc,marron,kaki"
+    },
+    {
+      "id": 3,
+      "libelle": "Blazer oversize similicuir",
+      "image": "../../assets/Blazer oversize similicuir.jpeg",
+      "prix": 27,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "famme",
+      "taille": "x,m,l",
+      "couleur": "noir,marron"
+    },
+    {
+      "id": 4,
+      "libelle": "Bottines plates avec perles et rivets",
+      "image": "../../assets/Bottines plates avec perles et rivets bershka.jpeg",
+      "prix": 25,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "famme",
+      "taille": "s,m,l,xl",
+      "couleur": "noire"
+    },
+    {
+      "id": 5,
+      "libelle": "Pull col polo",
+      "image": "../../assets/Pull col polo.jpeg",
+      "prix": 18,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "famme",
+      "taille": "s,m,l,xl",
+      "couleur": "noir,gris,blanc"
+    },
+    {
+      "id": 6,
+      "libelle": "Jean jegging taille très haute",
+      "image": "../../assets/Jean jegging taille très haute.jpeg",
+      "prix": 20,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "famme",
+      "taille": "s,m,l,xl",
+      "couleur": "noir,bleu,bleu clair"
+    },
+    {
+      "id": 7,
+      "libelle": "Robe longue en maille",
+      "image": "../../assets/Robe longue en maille.jpeg",
+      "prix": 17,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "famme",
+      "taille": "s,m,l,xl",
+      "couleur": "rose,noir,vert"
+    },
+    {
+      "id": 8,
+      "libelle": "Sac matelassé effet nylon chaîne chunky",
+      "image": "../../assets/Sac matelassé effet nylon chaîne chunky.jpeg",
+      "prix": 12,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "famme",
+      "taille": "standard",
+      "couleur": "noir,rose,violet"
+    }
+  ],
+  "Homme": [
+    {
+      "id": 1,
+      "libelle": "VESTE INTÉRIEUR MOUTON SYNTHÉTIQUE",
+      "image": "../../assets/VESTE INTÉRIEUR MOUTON SYNTHÉTIQUE.jpeg",
+      "prix": 36,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "homme",
+      "taille": "s,m,l,xl,xxl",
+      "couleur": "noir,vert"
+    },
+    {
+      "id": 2,
+      "libelle": "T-SHIRT BASIQUE POCHE MANCHES LONGUES",
+      "image": "../../assets/T-SHIRT BASIQUE POCHE MANCHES LONGUES.jpeg",
+      "prix": 11,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "homme",
+      "taille": "s,m,l,xl",
+      "couleur": "noir,sable,marron,blanc"
+    },
+    {
+      "id": 3,
+      "libelle": "JEAN CARROT FIT DÉCHIRÉ",
+      "image": "../../assets/JEAN CARROT FIT DÉCHIRÉ.jpeg",
+      "prix": 25,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "homme",
+      "taille": "s,m,l,xl",
+      "couleur": "bleu clair"
+    },
+    {
+      "id": 4,
+      "libelle": "BASKETS CASUAL COMBINÉES",
+      "image": "../../assets/BASKETS CASUAL COMBINÉES.jpeg",
+      "prix": 26,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "homme",
+      "taille": "s,m,l,xl,xxl",
+      "couleur": "noire"
+    },
+    {
+      "id": 5,
+      "libelle": "Veste en jean doublure polaire",
+      "image": "../../assets/Veste en jean doublure polaire.jpeg",
+      "prix": 26,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "homme",
+      "taille": "s,m,l,xl,xxl",
+      "couleur": "bleu lavé,bleu,noir"
+    },
+    {
+      "id": 6,
+      "libelle": "Surchemise manches longues loose fit plissée",
+      "image": "../../assets/Surchemise manches longues loose fit plissée.jpeg",
+      "prix": 27,
+      "dispo": true,
+      "onsolde": false,
+      "genre": "homme",
+      "taille": "s,m,l",
+      "couleur": "gris,noire,blue"
+    }
+  ],
+  "client": [
+    {
+      "id": 1,
+      "nom": "EL Assadi",
+      "prenom": "Sabri",
+      "adresse": "Borj louzir Ariana",
+      "email": "sabriassadi439@gmail.com",
+      "tel": 54125478
+    },
+    {
+      "nom": "BenFoulen",
+      "prenom": "Foulen",
+      "adresse": "",
+      "email": "foulenbenfoulen@gmail.com",
+      "tel": 0,
+      "id": 2
+    }
+  ]
+}

@@ -3,11 +3,11 @@ export class Produit {
         public id :number,
         public libelle :string,
         public image :string,
-        public prix :number,
+        public prix :Float64Array,
         public dispo :boolean,
         public onsolde :boolean,
         public genre :string,
-        public size :number,
+        public taille :string,
         public couleur :string
     ){}
 }
