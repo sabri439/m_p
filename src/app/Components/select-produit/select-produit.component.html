@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="card" style="width:600px; margin-top: 20px; text-align: center;" *ngFor="let h of Hproduits">
+        <div class="card flex-row">  <img src={{h.image}}>
+            <div class="card-body">
+<h4>{{h.libelle}}</h4> <br>
+ <strong> Prix:</strong>{{h.prix}} DT<br>
+<strong> Taille:</strong>{{h.taille}}<br>
+<strong> Couleur:</strong>{{h.couleur}}<br>
+<input type="radio" name="dispo" [checked]="h.dispo==true"> Disponible En Stock <br>
+<strong> Composition:</strong>{{h.composition}} <br>
+<input type="button" value="ajouetr au panier"class="btn btn-success" > <i class="fa-solid fa-cart-shopping"></i><br>
+<button  [routerLink]="['/produits']" [ngClass]="' btn btn-dark'">Retour</button>
+</div>
+        </div>

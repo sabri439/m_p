@@ -8,6 +8,7 @@ export class Produit {
         public onsolde :boolean,
         public genre :string,
         public taille :string,
-        public couleur :string
+        public couleur :string,
+        public composition:string
     ){}
 }

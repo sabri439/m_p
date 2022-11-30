@@ -1,7 +1,21 @@
 <h3>Liste des produits pour homme</h3>
-{{Hproduits |json}}
-<h3>Liste des produits pour famme</h3>
-{{Fproduits |json}}
+<div class="container d-flex flex-wrap align-content-start justify-content-around">
+    <div class="card" style="width:280px; margin-top: 20px; " *ngFor="let h of Hproduits">
+<img class="card-img-top" src={{h.image}} [routerLink]="['/produits', h.id]" > 
+<div class="card-body">
+{{h.libelle}}  <br>
+prix: {{h.prix}} DT</div>
+</div>
+</div>
+<h3>Liste des produits pour femme</h3>
+<div  class="container d-flex  flex-wrap align-content-start justify-content-around">
+<div class="card" style="width:280px; margin-top: 20px; " *ngFor="let f of Fproduits">
+    <img  class="card-img-top" src={{f.image}}>
+    <div class="card-body">
+    {{f.libelle}} <br> prix:{{f.prix}} DT
+    </div>
+</div>
+</div>
 
 <h3>Opérations sur les produits des hommes</h3>
 <ul>
@@ -10,7 +24,7 @@ Id: {{ph.id}} - {{ph.libelle}} - Prix: {{ph.prix}}
 </li>
 </ul>
 
-<h3>Opérations sur les produits des fammes</h3>
+<h3>Opérations sur les produits des femmes</h3>
 <ul>
 <li *ngFor= "let pf of Fproduits">
 Id: {{pf.id}} - {{pf.libelle}} - Prix: {{pf.prix}}

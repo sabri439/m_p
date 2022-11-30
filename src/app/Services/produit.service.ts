@@ -21,4 +21,7 @@ export class ProduitService {
   {
     return this.http.get<Produit[]>(URLF);
   }
+  getproduitsById(id :number):Observable<Produit[]>{
+    return this.http.get<Produit[]>(URLH);
+  }
 }

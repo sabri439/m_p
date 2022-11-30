@@ -7,10 +7,11 @@
       "prix": 12,
       "dispo": true,
       "onsolde": false,
-      "genre": "male",
+      "genre": "famme",
       "taille": "s,m,l,xl",
-      "couleur": "noir,blanc,rose,gris"
-    },
+      "couleur": "noir,blanc,rose,gris",
+      "composition":" 47% coton 50% polyester 3% élasthanne 40% coton 60% polyeste"
+                    },
     {
       "id": 2,
       "libelle": "Pantalon jogger parachute loose fit",
@@ -20,7 +21,8 @@
       "onsolde": false,
       "genre": "famme",
       "taille": "s,m,l,xl",
-      "couleur": "noir,blanc,marron,kaki"
+      "couleur": "noir,blanc,marron,kaki",
+"composition":"100% coton"
     },
     {
       "id": 3,
@@ -31,8 +33,9 @@
       "onsolde": false,
       "genre": "famme",
       "taille": "x,m,l",
-      "couleur": "noir,marron"
-    },
+      "couleur": "noir,marron",
+"composition":"Revêtement :100% polyuréthane ,Tissu de base: 100% polyester ,Doublure :100% polyester"
+ },
     {
       "id": 4,
       "libelle": "Bottines plates avec perles et rivets",
@@ -41,8 +44,10 @@
       "dispo": true,
       "onsolde": false,
       "genre": "famme",
-      "taille": "s,m,l,xl",
-      "couleur": "noire"
+      "taille": "36/37/38/39/40",
+      "couleur": "noire",
+"composition":"Coupe: 100% polyuréthane,Doublure:80% polyester 20% polyuréthane ,Semelle:100% caoutchouc thermoplastique"
+
     },
     {
       "id": 5,
@@ -53,7 +58,9 @@
       "onsolde": false,
       "genre": "famme",
       "taille": "s,m,l,xl",
-      "couleur": "noir,gris,blanc"
+      "couleur": "noir,gris,blanc",
+"composition:":"Extérieur:62% polyester 23% acrylique 9% polyamide 3% élasthanne 3% laine"
+
     },
     {
       "id": 6,
@@ -64,7 +71,9 @@
       "onsolde": false,
       "genre": "famme",
       "taille": "s,m,l,xl",
-      "couleur": "noir,bleu,bleu clair"
+      "couleur": "noir,bleu,bleu clair",
+"composition":"Extérieur:73% coton 25% polyester 2% élasthanne"
+
     },
     {
       "id": 7,
@@ -75,7 +84,9 @@
       "onsolde": false,
       "genre": "famme",
       "taille": "s,m,l,xl",
-      "couleur": "rose,noir,vert"
+      "couleur": "rose,noir,vert",
+"composition":"Extérieur:50% polyester 50% coton"
+
     },
     {
       "id": 8,
@@ -86,7 +97,9 @@
       "onsolde": false,
       "genre": "famme",
       "taille": "standard",
-      "couleur": "noir,rose,violet"
+      "couleur": "noir,rose,violet",
+"composition":"Principal:100% polyester ,Poignée:100% aluminium ,Doublure:100% polyester ,Intérieur:100% polyester"
+
     }
   ],
   "Homme": [
@@ -99,7 +112,8 @@
       "onsolde": false,
       "genre": "homme",
       "taille": "s,m,l,xl,xxl",
-      "couleur": "noir,vert"
+      "couleur": "noir,vert",
+"composition":"Externe: 100% coton ,Doublure: 100% polyester ,Intérieur: 100% polyester"
     },
     {
       "id": 2,
@@ -110,7 +124,8 @@
       "onsolde": false,
       "genre": "homme",
       "taille": "s,m,l,xl",
-      "couleur": "noir,sable,marron,blanc"
+      "couleur": "noir,sable,marron,blanc",
+"composition":"Externe: 100% coton"
     },
     {
       "id": 3,
@@ -121,7 +136,8 @@
       "onsolde": false,
       "genre": "homme",
       "taille": "s,m,l,xl",
-      "couleur": "bleu clair"
+      "couleur": "bleu clair",
+"composition":"Externe: 98% coton -2% élasthanne"
     },
     {
       "id": 4,
@@ -131,8 +147,9 @@
       "dispo": true,
       "onsolde": false,
       "genre": "homme",
-      "taille": "s,m,l,xl,xxl",
-      "couleur": "noire"
+      "taille": "40/41/42/44/46",
+      "couleur": "noire",
+"composition":"Style: 100% polyuréthane ,Doublure: 100% polyester ,Semelle: 100% caoutchouc"
     },
     {
       "id": 5,
@@ -143,7 +160,8 @@
       "onsolde": false,
       "genre": "homme",
       "taille": "s,m,l,xl,xxl",
-      "couleur": "bleu lavé,bleu,noir"
+      "couleur": "bleu lavé,bleu,noir",
+"composition":"Extérieur:100% coton , Doublure :100% polyester "
     },
     {
       "id": 6,
@@ -154,7 +172,8 @@
       "onsolde": false,
       "genre": "homme",
       "taille": "s,m,l",
-      "couleur": "gris,noire,blue"
+      "couleur": "gris,noire,blue",
+"composition":"Principal 92% polyester 8% élasthanne"
     }
   ],
   "client": [
