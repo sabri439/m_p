@@ -9,6 +9,7 @@ import { ListClientsComponent } from './Components/list-clients/list-clients.com
 import { MenuComponent } from './Components/menu/menu.component';
 import { AcceuilComponent } from './Components/acceuil/acceuil.component';
 import { SelectProduitComponent } from './Components/select-produit/select-produit.component';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SelectProduitComponent } from './Components/select-produit/select-produ
     MenuComponent,
     AcceuilComponent,
     SelectProduitComponent,
+    FooterComponent,
   
   ],
   imports: [

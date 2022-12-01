@@ -9,7 +9,7 @@ const URLF ="http://localhost:3000/Femme";
   providedIn: 'root'
 })
 export class ProduitService {
-
+idp:number;
   constructor(private http:HttpClient) { }
 
   getHomme():Observable<Produit[]>
@@ -21,7 +21,7 @@ export class ProduitService {
   {
     return this.http.get<Produit[]>(URLF);
   }
-  getproduitsById(id :number):Observable<Produit[]>{
-    return this.http.get<Produit[]>(URLH);
+  getproduitsById(id :number):Observable<Produit>{
+    return this.http.get<Produit>(URLH+"/"+id);
   }
 }

@@ -9,17 +9,16 @@ import { ProduitService } from 'src/app/Services/produit.service';
   styleUrls: ['./select-produit.component.css']
 })
 export class SelectProduitComponent implements OnInit {
-  Hproduits:Produit[];
-  Fproduits:Produit[];
+  Hproduits:Produit;
+  Fproduits:Produit;
+  idp:number;
   constructor(private activatedRoute:ActivatedRoute,private produitService:ProduitService) { }
 
   ngOnInit(): void {
-    //this.Hproduits.id=this.activatedRoute.snapshot.params['id'];
+    this.idp=this.activatedRoute.snapshot.params['id'];
    
-      //this.Hproduits=this.produitService.getproduitsById(this.Hproduits.id);
-      this.produitService.getHomme().subscribe(
-        data => this.Hproduits = data
-        )
-  }
+   this.produitService.getproduitsById(this.idp).subscribe(data =>this.Hproduits=data)
+  
 
+  }
 }

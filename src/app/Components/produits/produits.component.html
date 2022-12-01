@@ -4,7 +4,7 @@
 <img class="card-img-top" src={{h.image}} [routerLink]="['/produits', h.id]" > 
 <div class="card-body">
 {{h.libelle}}  <br>
-prix: {{h.prix}} DT</div>
+prix: {{h.prix}} $</div>
 </div>
 </div>
 <h3>Liste des produits pour femme</h3>
@@ -12,7 +12,7 @@ prix: {{h.prix}} DT</div>
 <div class="card" style="width:280px; margin-top: 20px; " *ngFor="let f of Fproduits">
     <img  class="card-img-top" src={{f.image}}>
     <div class="card-body">
-    {{f.libelle}} <br> prix:{{f.prix}} DT
+    {{f.libelle}} <br> prix:{{f.prix}} $
     </div>
 </div>
 </div>
