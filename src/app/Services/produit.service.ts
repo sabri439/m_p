@@ -24,4 +24,8 @@ idp:number;
   getproduitsById(id :number):Observable<Produit>{
     return this.http.get<Produit>(URLH+"/"+id);
   }
+
+  deleteProduit(id:number){
+    return this.http.delete(URL+"/"+ id);
+    }
 }

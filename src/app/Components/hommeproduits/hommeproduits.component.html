@@ -1,0 +1,9 @@
+<h3>Liste des produits pour homme</h3>
+<div class="container d-flex flex-wrap align-content-start justify-content-around">
+    <div class="card" style="width:280px; margin-top: 20px; " *ngFor="let h of Hproduits">
+<img class="card-img-top" src={{h.image}} [routerLink]="['/hommeproduits', h.id]" > 
+<div class="card-body">
+{{h.libelle}}  <br>
+prix: {{h.prix}} $</div>
+</div>
+</div>

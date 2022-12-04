@@ -18,12 +18,10 @@ export class ProduitsComponent implements OnInit {
 
   ngOnInit(): void {
     this.produitService.getHomme().subscribe(
-      data => this.Hproduits = data
-      )
+      data => this.Hproduits = data);
 
     this.produitService.getFamme().subscribe(
-      data => this.Fproduits = data
-    )  
+      data => this.Fproduits = data); 
     
    
   }

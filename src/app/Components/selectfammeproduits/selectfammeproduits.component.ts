@@ -4,21 +4,20 @@ import { Produit } from 'src/app/Model/produit';
 import { ProduitService } from 'src/app/Services/produit.service';
 
 @Component({
-  selector: 'app-select-produit',
-  templateUrl: './select-produit.component.html',
-  styleUrls: ['./select-produit.component.css']
+  selector: 'app-selectfammeproduits',
+  templateUrl: './selectfammeproduits.component.html',
+  styleUrls: ['./selectfammeproduits.component.css']
 })
-export class SelectProduitComponent implements OnInit {
-  Hproduits:Produit;
+export class SelectfammeproduitsComponent implements OnInit {
+
   Fproduits:Produit;
-  idp:number;
+  idpf:number;
   constructor(private activatedRoute:ActivatedRoute,private produitService:ProduitService) { }
 
   ngOnInit(): void {
-    this.idp=this.activatedRoute.snapshot.params['id'];
-   
-   this.produitService.getproduitsById(this.idp).subscribe(data =>this.Hproduits=data)
-  
+    this.idpf=this.activatedRoute.snapshot.params['idf'];
 
+    this.produitService.getproduitsById(this.idpf).subscribe(data =>this.Fproduits=data)
   }
+
 }

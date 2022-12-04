@@ -8,8 +8,11 @@ import { ProduitsComponent } from './Components/produits/produits.component';
 import { ListClientsComponent } from './Components/list-clients/list-clients.component';
 import { MenuComponent } from './Components/menu/menu.component';
 import { AcceuilComponent } from './Components/acceuil/acceuil.component';
-import { SelectProduitComponent } from './Components/select-produit/select-produit.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { HommeproduitsComponent } from './Components/hommeproduits/hommeproduits.component';
+import { FammeproduitsComponent } from './Components/fammeproduits/fammeproduits.component';
+import { SelectfammeproduitsComponent } from './Components/selectfammeproduits/selectfammeproduits.component';
+import { SelecthommeproduitsComponent } from './Components/selecthommeproduits/selecthommeproduits.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +21,11 @@ import { FooterComponent } from './Components/footer/footer.component';
     ListClientsComponent,
     MenuComponent,
     AcceuilComponent,
-    SelectProduitComponent,
     FooterComponent,
+    HommeproduitsComponent,
+    FammeproduitsComponent,
+    SelectfammeproduitsComponent,
+    SelecthommeproduitsComponent,
   
   ],
   imports: [

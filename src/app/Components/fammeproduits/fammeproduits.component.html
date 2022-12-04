@@ -1,0 +1,9 @@
+<h3>Liste des produits pour femme</h3>
+<div  class="container d-flex  flex-wrap align-content-start justify-content-around">
+<div class="card" style="width:280px; margin-top: 20px; " *ngFor="let f of Fproduits">
+    <img  class="card-img-top" src={{f.image}}>
+    <div class="card-body">
+    {{f.libelle}} <br> prix:{{f.prix}} $
+    </div>
+</div>
+</div>

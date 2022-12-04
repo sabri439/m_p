@@ -1,0 +1,18 @@
+<div class="container">
+    {{Hproduits.id}}
+    <div class="card" style="width:600px; margin-top: 20px; text-align: center;">
+        <div class="card flex-row"> <img [src]="Hproduits.image">
+            <div class="card-body">
+                <h4>{{Hproduits.libelle}}</h4> <br>
+                <strong>Prix</strong>{{Hproduits.prix}} $<br>
+                <strong> Taille:</strong>{{Hproduits.taille}}<br>
+                <strong> Couleur:</strong>{{Hproduits.couleur}}<br>
+                <input type="radio" name="dispo" [checked]="Hproduits.dispo==true"> Disponible En Stock <br>
+                <strong> Composition:</strong>{{Hproduits.composition}} <br>
+                <input type="submit" value="ajouetr au panier" [routerLink]="['/hommeproduits']" class="btn btn-success" (click)="ajouteraupanier(Hproduits.id)"> <i
+                    class="fa-solid fa-cart-shopping"></i><br>
+                <input type="submit" value="Retour" [routerLink]="['/hommeproduits']" routerLinkActive="router-link-active" class="btn btn-dark">
+            </div>
+        </div>
+    </div>
+</div>
