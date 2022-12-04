@@ -13,7 +13,7 @@ const routes: Routes = [
   {path:'hommeproduits', title:'Homme', component:HommeproduitsComponent},
   {path:'hommeproduits/:idh', title:'Homme', component:SelecthommeproduitsComponent},
   {path:'fammeproduits', title:'Famme', component:FammeproduitsComponent},
-  {path:'fammeproduits/idf', title:'Famme', component:SelectfammeproduitsComponent},
+  {path:'fammeproduits/:idf', title:'Famme', component:SelectfammeproduitsComponent},
   {path:'', redirectTo:'acceuil', pathMatch:'full'}
  
 

@@ -13,6 +13,7 @@ import { HommeproduitsComponent } from './Components/hommeproduits/hommeproduits
 import { FammeproduitsComponent } from './Components/fammeproduits/fammeproduits.component';
 import { SelectfammeproduitsComponent } from './Components/selectfammeproduits/selectfammeproduits.component';
 import { SelecthommeproduitsComponent } from './Components/selecthommeproduits/selecthommeproduits.component';
+import { CommentComponent } from './Components/comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SelecthommeproduitsComponent } from './Components/selecthommeproduits/s
     FammeproduitsComponent,
     SelectfammeproduitsComponent,
     SelecthommeproduitsComponent,
+    CommentComponent,
   
   ],
   imports: [

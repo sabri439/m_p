@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Ajout d'un commentaire</h2>
+    <form [formGroup]="commForm">
+        <div>
+            <label> Nom de client</label>
+            <input type="text" class="form-control" formControlName="nom">
+        </div>
+        <div>
+            <label> Message</label>
+            <input type="text" class="form-control" formControlName="message">
+        </div>
+    <div>
+        <input type="date" class="form-control" formControlName="date"}>
+    </div>
+        <input type="submit"  value="Avis" (click)="ajouterComm()">
+    </form>
+</div>

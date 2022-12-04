@@ -1,3 +1,5 @@
+import { Commentaire } from "./commentaire";
+
 export class Produit {
     constructor(
         public id :number,
@@ -9,6 +11,7 @@ export class Produit {
         public genre :string,
         public taille :string,
         public couleur :string,
-        public composition:string
+        public composition:string,
+       public comments:Commentaire[]
     ){}
 }

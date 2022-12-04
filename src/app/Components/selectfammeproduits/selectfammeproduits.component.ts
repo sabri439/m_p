@@ -17,7 +17,7 @@ export class SelectfammeproduitsComponent implements OnInit {
   ngOnInit(): void {
     this.idpf=this.activatedRoute.snapshot.params['idf'];
 
-    this.produitService.getproduitsById(this.idpf).subscribe(data =>this.Fproduits=data)
+    this.produitService.getproduitsByIdF(this.idpf).subscribe(data =>this.Fproduits=data)
   }
 
 }
