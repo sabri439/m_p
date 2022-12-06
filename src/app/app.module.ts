@@ -15,6 +15,10 @@ import { SelectfammeproduitsComponent } from './Components/selectfammeproduits/s
 import { SelecthommeproduitsComponent } from './Components/selecthommeproduits/selecthommeproduits.component';
 import { CommentComponent } from './Components/comment/comment.component';
 import { ErreurComponent } from './erreur/erreur.component';
+import { AdminModule } from './admin/admin.module';
+import { LoginComponent } from './login/login.component';
+import { DashboradComponent } from './dashborad/dashborad.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,9 @@ import { ErreurComponent } from './erreur/erreur.component';
     SelecthommeproduitsComponent,
     CommentComponent,
     ErreurComponent,
+    LoginComponent,
+    DashboradComponent,
+    UserComponent,
   
   ],
   imports: [
@@ -37,7 +44,8 @@ import { ErreurComponent } from './erreur/erreur.component';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AdminModule
    
   ],
   providers: [],
