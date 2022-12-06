@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +14,7 @@ import { FammeproduitsComponent } from './Components/fammeproduits/fammeproduits
 import { SelectfammeproduitsComponent } from './Components/selectfammeproduits/selectfammeproduits.component';
 import { SelecthommeproduitsComponent } from './Components/selecthommeproduits/selecthommeproduits.component';
 import { CommentComponent } from './Components/comment/comment.component';
+import { ErreurComponent } from './erreur/erreur.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +29,16 @@ import { CommentComponent } from './Components/comment/comment.component';
     SelectfammeproduitsComponent,
     SelecthommeproduitsComponent,
     CommentComponent,
+    ErreurComponent,
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

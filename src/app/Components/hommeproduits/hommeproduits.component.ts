@@ -9,7 +9,7 @@ import { ProduitService } from 'src/app/Services/produit.service';
   styleUrls: ['./hommeproduits.component.css']
 })
 export class HommeproduitsComponent implements OnInit {
-
+search:string;
   Hproduits:Produit[];
   constructor(private produitService:ProduitService,
     private fb:FormBuilder) { }
@@ -19,5 +19,14 @@ export class HommeproduitsComponent implements OnInit {
         data => this.Hproduits = data
       );
   }
-
+  filter(){
+    if(this.search==''){
+      this.produitService.getFamme().subscribe((data)=>{
+        this.Hproduits=data;});
+      }
+      else{
+        this.Hproduits=this.Hproduits.filter((res)=>
+        res.libelle.toLowerCase().includes(this.search.toLowerCase()));
+      }
+    }
 }

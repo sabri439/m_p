@@ -7,6 +7,7 @@ import { HommeproduitsComponent } from './Components/hommeproduits/hommeproduits
 import { ProduitsComponent } from './Components/produits/produits.component';
 import { SelectfammeproduitsComponent } from './Components/selectfammeproduits/selectfammeproduits.component';
 import { SelecthommeproduitsComponent } from './Components/selecthommeproduits/selecthommeproduits.component';
+import { ErreurComponent } from './erreur/erreur.component';
 
 const routes: Routes = [
   {path:'acceuil',title:'acceuil', component:AcceuilComponent},
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path:'hommeproduits/:idh', title:'Homme', component:SelecthommeproduitsComponent},
   {path:'fammeproduits', title:'Famme', component:FammeproduitsComponent},
   {path:'fammeproduits/:idf', title:'Famme', component:SelectfammeproduitsComponent},
-  {path:'', redirectTo:'acceuil', pathMatch:'full'}
+  {path:'', redirectTo:'acceuil', pathMatch:'full'},
+  {path:'**',title:'erreur',component:ErreurComponent}
  
 
 ];
